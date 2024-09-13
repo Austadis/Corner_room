@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: WhiteboxRoom.ma
-//Last modified: Thu, Sep 12, 2024 10:31:14 PM
+//Last modified: Thu, Sep 12, 2024 10:39:17 PM
 //Codeset: UTF-8
 requires maya "2025ff03";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiImagerDenoiserOidn"
@@ -11,12 +11,12 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202407121012-8ed02f4c99";
 fileInfo "osv" "Mac OS X 12.7.6";
-fileInfo "UUID" "A39C978C-6544-CBE9-2C6D-1F82DD0A324C";
+fileInfo "UUID" "79728091-214D-7C63-D21B-E79369A52642";
 createNode transform -s -n "persp";
 	rename -uid "36EB50D5-124A-DB75-055A-8CA0225C5137";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 18.117077763360165 9.3302789256509033 11.515532143616991 ;
-	setAttr ".r" -type "double3" -12.338352732250645 411.39999999956456 2.5490132216287183e-15 ;
+	setAttr ".t" -type "double3" 19.849592031453064 8.5736063893733583 9.5171338967546681 ;
+	setAttr ".r" -type "double3" -13.538352732250159 422.5999999995621 0 ;
 	setAttr ".rp" -type "double3" -2.2204460492503131e-16 -4.4408920985006262e-16 0 ;
 	setAttr ".rpt" -type "double3" 2.7370425208397405e-16 1.4611567412303905e-17 2.4371965120417439e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
